@@ -1,0 +1,266 @@
+@charset "UTF-8";
+/* 通用样式 */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "微软雅黑";
+	background-color: #f4f4f4;	
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+img{
+	display: block;
+	border: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+
+/* 头部 */
+header{
+	width: 100%;
+	min-width: 1192px;	
+	height: 26px;
+	background-color: #f3f6f4;
+	border-bottom: 1px solid #eaeceb;
+}
+header .topbar{
+	width: 1192px;
+	height: 26px;
+	margin: 0 auto;
+	font-size: 12px;
+	line-height: 26px;
+	color: #77827b;
+	text-align: right;
+}
+header .topbar a{
+	color: #77827b;
+}
+header .topbar a:hover{
+	color: #e75a50;
+}
+header .topbar  .zc{
+	color: #e75a50;
+}
+header .topbar span{
+	margin: 0 10px;	
+}
+/* logo、搜索框、导航条、人物头像 */
+.a{
+	width: 100%;
+	min-width: 1192px;
+	height: 145px;
+	background-color: #fff;
+}
+.a .a_box{
+	width: 1192px;
+	height: 80px;
+	margin: 0 auto;
+	position: relative;
+	background-color: #fff;
+}
+.a .a_box .logo{
+	width: 399px;
+	height: 76px;
+}
+.a .a_box .search{
+	height: 40px;
+	width: 540px;
+	border: 2px solid #00674a;
+	margin-top: 10px;
+	margin-left: 71px;
+}
+.a .a_box .search input{
+	float: left;
+	width: 440px;
+	height: 40px;
+	border: none;
+	color: #666;
+}
+.a .a_box .search a{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	float: left;
+	background-color: #00674a;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+}
+.a .a_box .service{
+	position: absolute;
+	top: 20px;
+	right: 0;
+}
+.a  .abox_nav{
+	margin-top:  0px;
+	margin-left: 220px;
+	position: relative;
+	z-index: 9999999;
+}
+.a  .abox_nav li{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 15px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.a .abox_nav li a{
+	color: #000;
+}
+.a  .abox_nav li a:hover{
+	color: #b40000;
+}
+.a  .abox_nav li .nav_more{
+	width: 300px;
+	padding: 20px;
+	background-color: #29795e;
+	position: absolute;
+	border-radius: 5px;
+	top: 40px;
+	right: -40px;
+	display: none;
+}
+.a  .abox_nav li .nav_more span{
+	width: 20px;
+	height: 12px;
+	display: block;
+	position: absolute;
+	top: -11px;
+	right: 75px;
+	/* background-color: red; */ 
+	background: url(../images/sanjiao2.png) no-repeat; 
+}
+.a  .abox_nav li .nav_more a{
+	width: 100px;
+	line-height: 20px;
+	display: block;
+	float: left;
+	color: #fff;
+}
+.a  .abox_nav li .nav_more a:hover{
+	text-decoration: underline;
+}
+
+
+/* 底部部分 */
+footer{
+	width: 100%;
+	min-width: 1192px;
+	overflow: hidden;
+	background-color: #fff;
+}
+footer .footer1{
+	width: 1192px;
+	height: 126px;
+	min-width: 1192px;
+	margin: 0 auto;
+	border-bottom: 1px solid #e5e5e5;
+}
+footer .footer1 .com{
+	width: 266px;
+	height: 54px;
+	padding-left: 30px;
+	margin-top: 30px;
+	border-right: 1px solid #e1e1e1;
+	float: left;
+}
+footer .footer1 .com img{
+	float: left;	
+}
+footer .footer1 .com div{
+	float: left;
+	margin-left: 15px;
+}
+footer .footer1 .com div h1{
+	font-size: 24px;
+}
+footer .footer2{
+	width: 1120px;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 40px;
+	padding-bottom: 42px;
+	padding-left: 72px;
+}
+footer .footer2 dl{
+	width: 250px;
+	overflow: hidden;
+	float: left;
+	font-size: 12px;
+	color: #5f6561;
+}
+footer .footer2 dl dt{	
+	font-size: 16px;
+	font-weight: bold;	
+}
+footer .footer2 dl dd{
+	width: 250px;
+}
+footer .footer2 dl dd a{
+	width: 250px;
+	display: block;	
+	line-height: 22px;
+	color: #5f6561;
+}
+footer .footer2 dl dd a:hover{
+	color: #e75a50;
+}
+footer .footer3{
+	width: 100%;
+	min-width: 1192px;
+	margin: 0 auto;
+	background-color: #00674a;
+	height: 68px;
+	padding-top: 22px;
+	border-top: 3px solid #ffd300;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+}
+.gotop{
+	width: 40px;
+	height: 40px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	cursor: pointer;		
+}
+@keyframes gt{
+	0%{
+		transform: rotate(90deg) scale(0);
+		opacity: 0;	
+	}
+	10%{
+		transform: rotate(180deg) scale(0.2);
+		opacity: 0.2;	
+	}
+	30%{
+		transform: rotate(270deg) scale(0.4);
+		opacity: .4;
+	}
+	50%{
+		transform: rotate(360deg) scale(0.6);
+		opacity: .6;	
+	}
+	80%{
+		transform: rotate(540deg) scale(0.8);;
+		opacity: .9;
+	}
+	100%{
+		transform: rotate(720deg) scale(1);
+		opacity: 1;	
+	}
+
+} 
